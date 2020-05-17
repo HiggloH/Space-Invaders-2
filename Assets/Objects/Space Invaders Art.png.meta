@@ -1,0 +1,334 @@
+fileFormatVersion: 2
+guid: f1e9470c8d13871459ed81c25dbe201d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Space Invaders Art_0
+    21300002: Space Invaders Art_1
+    21300004: Space Invaders Art_2
+    21300006: Space Invaders Art_3
+    21300008: Space Invaders Art_4
+    21300010: Space Invaders Art_5
+    21300012: Space Invaders Art_6
+    21300014: Space Invaders Art_7
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Space Invaders Art_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 73
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de37f94e6aa1cbd409e196e838bac791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space Invaders Art_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 77
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91abd6a5e7cc484b99c6d257cda7926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space Invaders Art_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 77
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64a3a9f9c4b9a84a81516b4e2d21a6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space Invaders Art_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 43
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e7cd3fd8464bb4dbefa906856fae83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space Invaders Art_4
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 44
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc372cb33da13474690085a353eeeb76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space Invaders Art_5
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 44
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb2cbe4b66d2924490ec5de1d0cac3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space Invaders Art_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 12
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eac94f2fbf79724999291e5d4bc0a55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space Invaders Art_7
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 11
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c327a38e1f8484f824a9511976776e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -5, y: -27}
+      - {x: -7, y: -31}
+      - {x: -7, y: -38}
+      - {x: -3, y: -39}
+      - {x: 6, y: -39}
+      - {x: 8, y: -38}
+      - {x: 8, y: -31}
+      - {x: 7, y: -27}
+    - - {x: -36, y: -26}
+      - {x: -39, y: -32}
+      - {x: -39, y: -36}
+      - {x: -36, y: -38}
+      - {x: -29, y: -38}
+      - {x: -24, y: -37}
+      - {x: -24, y: -30}
+      - {x: -27, y: -26}
+    - - {x: -26, y: 5}
+      - {x: -39, y: 5}
+      - {x: -40, y: 4}
+      - {x: -40, y: -6}
+      - {x: -36, y: -7}
+      - {x: -27, y: -7}
+      - {x: -25, y: -6}
+      - {x: -25, y: 0}
+      - {x: -26, y: 4}
+    - - {x: -6, y: 6}
+      - {x: -8, y: 2}
+      - {x: -8, y: -5}
+      - {x: -4, y: -6}
+      - {x: 5, y: -6}
+      - {x: 7, y: -5}
+      - {x: 7, y: 2}
+      - {x: 6, y: 6}
+    - - {x: 27, y: 6}
+      - {x: 25, y: 4}
+      - {x: 25, y: -3}
+      - {x: 27, y: -6}
+      - {x: 37, y: -6}
+      - {x: 40, y: -5}
+      - {x: 40, y: 2}
+      - {x: 37, y: 6}
+    - - {x: -32, y: 45}
+      - {x: -39, y: 40}
+      - {x: -42, y: 36}
+      - {x: -42, y: 29}
+      - {x: -41, y: 24}
+      - {x: -36, y: 23}
+      - {x: -28, y: 23}
+      - {x: -21, y: 28}
+      - {x: -21, y: 36}
+      - {x: -29, y: 45}
+    - - {x: -4, y: 39}
+      - {x: -7, y: 33}
+      - {x: -7, y: 28}
+      - {x: -4, y: 27}
+      - {x: 6, y: 27}
+      - {x: 8, y: 30}
+      - {x: 8, y: 37}
+      - {x: 5, y: 39}
+    - - {x: 26, y: 39}
+      - {x: 24, y: 37}
+      - {x: 24, y: 30}
+      - {x: 26, y: 27}
+      - {x: 37, y: 27}
+      - {x: 39, y: 28}
+      - {x: 39, y: 35}
+      - {x: 36, y: 39}
+    physicsShape: []
+    bones: []
+    spriteID: 424751ea53f1dd1459a91b92c48d364d
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
