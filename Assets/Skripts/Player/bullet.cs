@@ -17,15 +17,13 @@ public class bullet : MonoBehaviour
         
     }
 
-    private void Update()
-    {
-        
-    }
+   
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
          Enemy enemy = hitInfo.GetComponent<Enemy>();
         if(enemy != null)
         {
+            
             enemy.TakeDamage(damage);
         }
         Die();

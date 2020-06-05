@@ -10,4 +10,6 @@ public class LoadOnclick : MonoBehaviour
         Application.LoadLevel(level);
         ScoreManager.score = 0;
     }
+
+
 }

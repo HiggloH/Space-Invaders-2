@@ -25,5 +25,7 @@ public class DifficultyTextManager : MonoBehaviour
         {
             difficulty.text = "Difficulty = Hard";
         }
+
+       
     }
 }

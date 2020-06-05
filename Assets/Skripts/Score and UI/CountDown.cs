@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class CountDown : MonoBehaviour
 {
-    public int timeLeft = 60;
+    public int timeLeft = 30;
     public Text countDown;
     public int currentTime;
     void Start()

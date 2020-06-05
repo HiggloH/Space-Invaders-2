@@ -6,16 +6,12 @@ public class Enemy : MonoBehaviour
 {
     public int health = 60;
     public int scorevalue = 5;
-    
-    private void Update()
+
+    public void Awake()
     {
-        if(Difficulty.diff == 0)
+        if (Difficulty.diff == 0 ||Difficulty.diff == 1)
         {
             health = 60;
-        }
-        if(Difficulty.diff == 1)
-        {
-            health = 90;
         }
         if (Difficulty.diff == 2)
         {
@@ -23,11 +19,12 @@ public class Enemy : MonoBehaviour
         }
     }
 
+
     public void TakeDamage (int damage)
     {
         health -= damage;
 
-        if (health == 0)
+        if (health <= 0)
         {
             Die();
         }
