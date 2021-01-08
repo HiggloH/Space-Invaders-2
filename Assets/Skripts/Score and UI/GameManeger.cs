@@ -5,16 +5,5 @@ using UnityEngine.UI;
 
 public class GameManeger : MonoBehaviour
 {
- 
-   
-    void Start()
-    {
-
-    }
-
     
-    void Update()
-    {
-
-    }
 }

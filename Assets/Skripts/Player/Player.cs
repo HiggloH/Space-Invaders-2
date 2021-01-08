@@ -32,7 +32,6 @@ public class Player : MonoBehaviour
     void Die()
     {
         Destroy(gameObject);
-        Application.LoadLevel(7); 
-
+        Application.LoadLevel(6); 
     }
 }

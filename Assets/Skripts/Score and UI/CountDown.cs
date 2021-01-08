@@ -11,9 +11,12 @@ public class CountDown : MonoBehaviour
     private int timeLeft = 30;
     public Text countDown;
     public int currentTime;
+    private int nextSceneToLoad;
 
     void Start()
     {
+        nextSceneToLoad = SceneManager.GetActiveScene().buildIndex + 1;
+
         if(Difficulty.diff == 0 ||Difficulty.diff == 1)
         {
             timeLeft = 30;
@@ -34,7 +37,7 @@ public class CountDown : MonoBehaviour
         if(timeLeft == 0){
             StopCoroutine("LoseTime");
             Destroy(gameObject);
-            SceneManager.LoadScene("MiddleScene");
+            SceneManager.LoadScene(nextSceneToLoad);
             TotalScoreManager.totalScore = TotalScoreManager.totalScore + ScoreManager.score;
             
         }

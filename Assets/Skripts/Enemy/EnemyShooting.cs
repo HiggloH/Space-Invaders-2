@@ -6,13 +6,26 @@ public class EnemyShooting : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject EnemyBullet;
-    private float i = 0;
-    private float frameCount = 0;
     private float secondsBetweenShoot;
 
 
     private void Start()
     {
+        if(Difficulty.diff == 0)
+        {
+            secondsBetweenShoot = 3;
+        }
+
+        if (Difficulty.diff == 1)
+        {
+            secondsBetweenShoot = 2;
+        }
+
+        if (Difficulty.diff == 2)
+        {
+            secondsBetweenShoot = 1;
+        }
+
         StartCoroutine("WhenToShoot");
     }
 
