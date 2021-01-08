@@ -8,17 +8,25 @@ using UnityEngine.SceneManagement;
 
 public class CountDown : MonoBehaviour
 {
-    public int timeLeft = 30;
+    private int timeLeft = 30;
     public Text countDown;
     public int currentTime;
 
     void Start()
     {
+        if(Difficulty.diff == 0 ||Difficulty.diff == 1)
+        {
+            timeLeft = 30;
+        }else if(Difficulty.diff == 2)
+        {
+            timeLeft = 25;
+        }
+
+
         StartCoroutine("LoseTime");
         Time.timeScale = 1;
         currentTime = timeLeft;
     }
-
     
     void Update()
     {

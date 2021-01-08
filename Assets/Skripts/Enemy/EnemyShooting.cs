@@ -8,21 +8,25 @@ public class EnemyShooting : MonoBehaviour
     public GameObject EnemyBullet;
     private float i = 0;
     private float frameCount = 0;
+    private float secondsBetweenShoot;
 
 
-    private void Shoot(){
-        Instantiate(EnemyBullet, firePoint.position, firePoint.rotation);
-    }    
-    void Update()
+    private void Start()
     {
-        frameCount++;
+        StartCoroutine("WhenToShoot");
+    }
 
-        if (frameCount > 60) {
-            frameCount = 0;
-            i++;
-            if(i < 1000){
-                Shoot();
-            }
+    private void Shoot()
+    {
+        Instantiate(EnemyBullet, firePoint.position, firePoint.rotation);
+    }
+
+    IEnumerable WhenToShoot()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(secondsBetweenShoot);
+            Shoot();
         }
     }
 }

@@ -90,6 +90,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dfae1b4649cbd346b4bfe55f975dd33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLeft: 60
+  timeLeft: 30
   countDown: {fileID: 6946625375688524172}
   currentTime: 0
