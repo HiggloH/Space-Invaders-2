@@ -23,9 +23,15 @@ public class bullet : MonoBehaviour
          Enemy enemy = hitInfo.GetComponent<Enemy>();
         if(enemy != null)
         {
-            
             enemy.TakeDamage(damage);
         }
+
+        EnemyBullet enemyBullet = hitInfo.GetComponent<EnemyBullet>();
+        if(enemyBullet != null)
+        {
+            enemyBullet.Die();
+        }
+
         Die();
     }
 

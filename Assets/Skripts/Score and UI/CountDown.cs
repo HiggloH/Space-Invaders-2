@@ -11,6 +11,7 @@ public class CountDown : MonoBehaviour
     public int timeLeft = 30;
     public Text countDown;
     public int currentTime;
+
     void Start()
     {
         StartCoroutine("LoseTime");

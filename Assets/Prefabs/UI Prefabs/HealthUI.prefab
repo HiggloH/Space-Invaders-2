@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4835945998801888572}
+  - component: {fileID: 5232058609957397261}
   m_Layer: 5
   m_Name: HealthUI
   m_TagString: Untagged
@@ -25,7 +26,7 @@ RectTransform:
   m_GameObject: {fileID: 4835945998801888573}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.94265616, y: 0.94265616, z: 0.94265616}
   m_Children:
   - {fileID: 4835945999602009039}
   - {fileID: 4835945999935711155}
@@ -34,9 +35,22 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 75, y: 60}
+  m_AnchoredPosition: {x: -42.1, y: -6.5}
+  m_SizeDelta: {x: 176.23, y: 90.18}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &5232058609957397261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4835945998801888573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11220ddfbae964d429f5210323e8de82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 0}
 --- !u!1 &4835945999065188701
 GameObject:
   m_ObjectHideFlags: 0
@@ -70,8 +84,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -5, y: 0}
-  m_SizeDelta: {x: -20, y: 0}
+  m_AnchoredPosition: {x: -4.88, y: 0}
+  m_SizeDelta: {x: -19.76, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &4835945999546224559
 GameObject:
@@ -107,8 +121,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 10, y: 0}
+  m_AnchoredPosition: {x: 4.98, y: 0}
+  m_SizeDelta: {x: 18.77, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4835945999546224544
 CanvasRenderer:
@@ -131,7 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -315,7 +329,7 @@ RectTransform:
   m_GameObject: {fileID: 4835945999935711152}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.46875, y: 1, z: 1}
+  m_LocalScale: {x: 0.44066718, y: 0.94009, z: 0.94009}
   m_Children:
   - {fileID: 4835945999786763413}
   - {fileID: 4835945999065188700}
@@ -324,7 +338,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 37.8, y: -13.8}
+  m_AnchoredPosition: {x: 34, y: -15.4}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4835945999935711154

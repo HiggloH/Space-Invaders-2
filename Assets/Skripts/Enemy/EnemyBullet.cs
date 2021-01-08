@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyBullet : MonoBehaviour
 {
-    public float speed = 10f;
+    public float speed = 5f;
     public int damage = 20;
     public Rigidbody2D rb;
     
@@ -17,17 +17,17 @@ public class EnemyBullet : MonoBehaviour
         rb.velocity = -transform.up * speed;
     }
 
-    void OnTriggerEnter2D(Collider2D hitInfo)
+    public void OnCollisionEnter2D(Collision2D collision)
     {
-        Player player = hitInfo.GetComponent<Player>();
-        if(player != null)
+        Player player = collision.gameObject.GetComponent<Player>();
+        if (player != null)
         {
             player.TakeDamage(damage);
         }
         Die();
     }
 
-    void Die()
+    public void Die()
     {
         Destroy(gameObject);
     }

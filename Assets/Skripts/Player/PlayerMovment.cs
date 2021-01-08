@@ -17,14 +17,6 @@ public class PlayerMovment : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("d"))
-        {
-            rb.AddForce(Vector2.right * moveSpeed);
-        }
-
-        if (Input.GetKey("a"))
-        {
-            rb.AddForce(-Vector2.right * moveSpeed);
-        }
+        rb.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime, rb.velocity.y);
     }
 }

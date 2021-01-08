@@ -158,9 +158,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 421c1b0f29ba1d046b72d30e97a5df45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 60
-  scorevalue: 5
-  script1: {fileID: 0}
+  health: 70
+  scorevalue: 10
 --- !u!114 &114477751066798370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,7 +172,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6304da949960baf4cb3d0dda15551d39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  diff: 0
 --- !u!1 &8235931528518953105
 GameObject:
   m_ObjectHideFlags: 0

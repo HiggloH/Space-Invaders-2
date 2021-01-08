@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class DifficultyTextManager : MonoBehaviour
 {
-    
-    
 
     public Text difficulty;
     

@@ -2,15 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    public int health = 60;
-    
-   
+    public int health = 100;
+    public int maxHealth = 100;
+
+    public HealthBar healthBar;
+
+    private void Start()
+    {
+        health = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
+    }
+
     public void TakeDamage (int damage)
     {
         health -= damage;
+
+        healthBar.SetHealth(health);
 
         if (health == 0)
         {
@@ -21,5 +32,7 @@ public class Player : MonoBehaviour
     void Die()
     {
         Destroy(gameObject);
+        Application.LoadLevel(7); 
+
     }
 }
