@@ -11,11 +11,11 @@ public class Enemy : MonoBehaviour
     {
         if (Difficulty.diff == 0 ||Difficulty.diff == 1)
         {
-            health = 60;
+            health = health;
         }
         if (Difficulty.diff == 2)
         {
-            health = 90;
+            health += 20;
         }
     }
 
