@@ -12,7 +12,18 @@ public class MovingEnemy : MonoBehaviour
 
     void Start()
     {
-        
+        if(Difficulty.diff == 0)
+        {
+            moveSpeed = 3;
+        }
+        if (Difficulty.diff == 1)
+        {
+            moveSpeed = 5;
+        }
+        if (Difficulty.diff == 2)
+        {
+            moveSpeed = 10;
+        }
     }
 
     void Update()
