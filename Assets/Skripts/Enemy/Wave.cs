@@ -6,11 +6,6 @@ public class Wave : MonoBehaviour
 {
     public List<GameObject> enenies;
 
-    private void Start()
-    {
-        gameObject.SetActive(false);
-    }
-
     private void Update()
     {
         if(enenies.Count == 0)

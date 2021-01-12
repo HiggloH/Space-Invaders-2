@@ -26,14 +26,18 @@ public class WaveManager : MonoBehaviour
 
         activeWave[0] = waves[0];
 
-        if (waves.Count == 0)
+        if (waves.Count == 1)
         {
-            SceneManager.LoadScene(nextSceneToLoad);
+            if (waves[0] == null)
+            {
+                activeWave.RemoveAt(0);
+                SceneManager.LoadScene(nextSceneToLoad);
+            }
         }
         else if (waves[0] == null)
         {
             waves.RemoveAt(0);
-            activeWave[0].SetActive(true);
+            waves[0].SetActive(true);
         }
 
         Debug.Log(activeWave[0]);
