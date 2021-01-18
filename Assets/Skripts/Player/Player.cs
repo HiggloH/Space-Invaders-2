@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+    public AudioSource hit;
+
     public int health = 100;
     public int maxHealth = 100;
 
@@ -20,6 +23,8 @@ public class Player : MonoBehaviour
     public void TakeDamage (int damage)
     {
         health -= damage;
+
+        hit.Play();
 
         healthBar.SetHealth(health);
 

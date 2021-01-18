@@ -144,8 +144,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fd87e5d1ec3b3247a97427a61123ff7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firePoint: {fileID: 0}
-  EnemyBullet: {fileID: 0}
+  firePoint: {fileID: 206116842505511030}
+  EnemyBullet: {fileID: 3871442312098594168, guid: fbd65c48a63bbd34a924d91d483f8c82,
+    type: 3}
 --- !u!114 &7081141001750209533
 MonoBehaviour:
   m_ObjectHideFlags: 0

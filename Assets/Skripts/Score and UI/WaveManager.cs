@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 using UnityEngine;
 
 public class WaveManager : MonoBehaviour
 {
+    private AudioSource win;
+
     private int nextSceneToLoad;
 
     public List<GameObject> waves;
@@ -14,6 +17,7 @@ public class WaveManager : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
+        win = GetComponent<AudioSource>();
 
         activeWave[0] = waves[0];
 
@@ -30,7 +34,8 @@ public class WaveManager : MonoBehaviour
         {
             if (waves[0] == null)
             {
-                activeWave.RemoveAt(0);
+                win.Play();
+                activeWave.RemoveAt(0); 
                 SceneManager.LoadScene(nextSceneToLoad);
             }
         }

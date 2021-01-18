@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class Weapon : MonoBehaviour
 {
+    public AudioSource shoot;
+
     public Transform[] firePoint;
     public GameObject bulletPrefab;
 
@@ -19,5 +22,6 @@ public class Weapon : MonoBehaviour
     void Shoot()
     {
         Instantiate(bulletPrefab, firePoint[0].position, firePoint[0].rotation);
+        shoot.Play();
     }
 }
