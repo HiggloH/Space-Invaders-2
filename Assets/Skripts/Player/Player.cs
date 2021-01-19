@@ -23,6 +23,8 @@ public class Player : MonoBehaviour
     public void TakeDamage (int damage)
     {
         health -= damage;
+        Debug.Log(health);
+
 
         hit.Play();
 

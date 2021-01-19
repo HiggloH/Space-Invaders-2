@@ -6,6 +6,14 @@ public class Wave : MonoBehaviour
 {
     public List<GameObject> enenies;
 
+    private void Start()
+    {
+        foreach(Transform child in transform)
+        {
+            enenies.Add(child.gameObject);
+        }
+    }
+
     private void Update()
     {
         if(enenies.Count == 0)
